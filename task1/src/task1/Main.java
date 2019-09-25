@@ -41,7 +41,7 @@ public class Main {
         try{
             List<List<Double> > array = input(inputString);
             if(array == null){
-                throw new NullArrayExeption(e);
+                throw new NullArrayExeption("you are input null array");
             }
             for (List<Double> line:array) {
                 Sorts sorts = new Sorts(line);
@@ -51,7 +51,7 @@ public class Main {
 
         }
         catch (NullArrayExeption e){
-
+            e.printStackTrace();
         }
     }
 }
