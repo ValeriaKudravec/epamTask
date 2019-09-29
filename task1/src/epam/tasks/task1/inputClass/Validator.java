@@ -1,8 +1,4 @@
-package epam.task1.validationClass;
-
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
-import java.util.Scanner;
+package epam.tasks.task1.inputClass;
 
 public class Validator {
     public boolean validate(String inputString){

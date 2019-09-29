@@ -1,4 +1,4 @@
-package epam.task1.actionClass;
+package epam.tasks.task1.actionClass;
 
 import java.util.ArrayList;
 import java.util.List;
