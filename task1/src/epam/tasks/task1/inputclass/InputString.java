@@ -1,4 +1,4 @@
-package epam.tasks.task1.inputClass;
+package epam.tasks.task1.inputclass;
 
 import epam.tasks.task1.parse.ParseString;
 import epam.tasks.task1.validation.Validator;

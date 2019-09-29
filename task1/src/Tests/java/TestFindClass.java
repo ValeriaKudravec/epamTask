@@ -1,7 +1,7 @@
 package Tests.java;
 
 
-import epam.tasks.task1.actionClass.Find;
+import epam.tasks.task1.actionclass.Find;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

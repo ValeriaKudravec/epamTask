@@ -1,10 +1,9 @@
 package epam.tasks.task1;
 
 
-import epam.tasks.task1.actionClass.doubleStraemClass.Actions;
+import epam.tasks.task1.actionclass.doublestraemclass.Actions;
 import epam.tasks.task1.exeption.EmptyArrayExeption;
-import epam.tasks.task1.inputClass.InputString;
-import epam.tasks.task1.actionClass.Sorts;
+import epam.tasks.task1.inputclass.InputString;
 
 import java.util.List;
 

@@ -1,7 +1,6 @@
 package Tests.java;
 
-import epam.tasks.task1.actionClass.Arithmetic;
-import epam.tasks.task1.parse.ParseString;
+import epam.tasks.task1.actionclass.Arithmetic;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
