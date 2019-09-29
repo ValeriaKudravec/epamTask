@@ -9,7 +9,7 @@ public class Find {
         array = new ArrayList<>(newArray.size()-1);
         this.array.addAll(newArray);
     }
-    public double findMin(double element){
+    public double findMin(){
         double min = array.get(0);
         for (double item:array) {
             if (item < min){
@@ -18,7 +18,7 @@ public class Find {
         }
         return min;
     }
-    public double findMax(double element){
+    public double findMax(){
         double max = array.get(0);
         for (double item:array) {
             if (item > max){

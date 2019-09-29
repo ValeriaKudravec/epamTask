@@ -1,5 +1,8 @@
 package epam.tasks.task1.inputClass;
 
+import epam.tasks.task1.parse.ParseString;
+import epam.tasks.task1.validation.Validator;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;

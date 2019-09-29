@@ -1,4 +1,6 @@
-package epam.tasks.task1.inputClass;
+package epam.tasks.task1.parse;
+
+import epam.tasks.task1.validation.Validator;
 
 import java.util.ArrayList;
 import java.util.List;

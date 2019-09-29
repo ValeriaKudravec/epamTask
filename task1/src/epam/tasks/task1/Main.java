@@ -1,16 +1,12 @@
 package epam.tasks.task1;
 
 
+import epam.tasks.task1.actionClass.doubleStraemClass.Actions;
 import epam.tasks.task1.exeption.EmptyArrayExeption;
 import epam.tasks.task1.inputClass.InputString;
-import epam.tasks.task1.inputClass.Validator;
 import epam.tasks.task1.actionClass.Sorts;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class Main {
     static String fileName = "input/inputFile.txt";
@@ -24,9 +20,11 @@ public class Main {
                 throw new EmptyArrayExeption("Empty array");
             }
             for (List<Double> line:arrays) {
-                Sorts sorts = new Sorts(line);
-                sorts.insertionSort();
+                Actions sorts = new Actions(line);
+                sorts.sort();
                 sorts.gerArray().forEach(item->System.out.print(item + " "));
+                System.out.println("max " + sorts.max());
+                System.out.println("sum " + sorts.sum());
             }
 
         }

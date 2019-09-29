@@ -1,4 +1,4 @@
-package epam.tasks.task1.inputClass;
+package epam.tasks.task1.validation;
 
 public class Validator {
     public boolean validate(String inputString){
