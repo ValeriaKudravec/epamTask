@@ -1,4 +1,4 @@
-package epam.tasks.task1.actionclass.doublestraemclass;
+package epam.tasks.task1.action.doublestraemclass;
 
 import java.util.*;
 import java.util.stream.DoubleStream;

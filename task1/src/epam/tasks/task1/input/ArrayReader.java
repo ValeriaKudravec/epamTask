@@ -1,4 +1,4 @@
-package epam.tasks.task1.inputclass;
+package epam.tasks.task1.input;
 
 import epam.tasks.task1.parse.ParseString;
 import epam.tasks.task1.validation.Validator;
@@ -9,22 +9,22 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class InputString {
-    public List<List<Double>> inputArrays(String fileName){
+public class ArrayReader {
+    public List<String> readArray(String fileName){
+        Validator validator = new Validator();
+        List<String> stringArray = new ArrayList<>();
         try(Scanner scanner = new Scanner(new File(fileName))) {
-            Validator validator = new Validator();
-            List<List<Double>> array = new ArrayList<>();
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                if (validator.validate(line)) {
-                    array.add(ParseString.parseLineToArray(line));
+                if(validator.validate(line)) {
+                    stringArray.add(line);
+
                 }
             }
-            return array;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        return null;
+        return stringArray;
     }
 
 }

@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class TestValidatorClass {
+public class ValidatorTest {
     Validator validator = new Validator();
     @Test
     public void isRightLine(){

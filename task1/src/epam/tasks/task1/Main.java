@@ -1,10 +1,12 @@
 package epam.tasks.task1;
 
 
-import epam.tasks.task1.actionclass.doublestraemclass.Actions;
+import epam.tasks.task1.action.doublestraemclass.Actions;
 import epam.tasks.task1.exeption.EmptyArrayExeption;
-import epam.tasks.task1.inputclass.InputString;
+import epam.tasks.task1.input.ArrayReader;
+import epam.tasks.task1.parse.ParseString;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -13,13 +15,15 @@ public class Main {
 
     public static void main(String[] args) {
         try{
-            InputString inputString = new InputString();
-            List<List<Double>> arrays= inputString.inputArrays(fileName);
+            ArrayReader readStringArray = new ArrayReader();
+            ParseString parseString = new ParseString();
+            List<String> arrays= readStringArray.readArray(fileName);
             if(arrays==null){
                 throw new EmptyArrayExeption("Empty array");
             }
-            for (List<Double> line:arrays) {
-                Actions sorts = new Actions(line);
+            for (String line:arrays) {
+                List<Double> doubleArray = new ArrayList<>(parseString.lineParser(line));
+                Actions sorts = new Actions(doubleArray);
                 sorts.sort();
                 sorts.gerArray().forEach(item->System.out.print(item + " "));
                 System.out.println("max " + sorts.max());
