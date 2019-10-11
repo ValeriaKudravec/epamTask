@@ -1,6 +1,7 @@
 package Epam.Task2.necklacefactory;
 
 import Epam.Task2.exeption.DontParseException;
+import Epam.Task2.stones.ComparatorOfStones;
 import Epam.Task2.stones.Decor;
 import Epam.Task2.stones.stones.amber.Amber;
 import Epam.Task2.stones.stones.naturalstones.Diamond;
@@ -12,14 +13,17 @@ import Epam.Task2.stones.stones.syntheticstones.SynteticEmerald;
 import Epam.Task2.stones.stones.syntheticstones.SynteticRuby;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class NecklaceFactory {
     public List<Decor> makeListOfStones(List<String> stonesString){
+
         List<Decor> listOfStones = new ArrayList<>();
         try {
             for (int i = 0; i < stonesString.size(); i++) {
-                switch (stonesString.get(i).split("'")[0].toLowerCase()) {
+
+                switch (stonesString.get(i).split(";")[0].toLowerCase()) {
                     case "diamond": {
                         Diamond diamond = Diamond.parseStringToDiamond(stonesString.get(i));
                         listOfStones.add(diamond);
@@ -73,5 +77,8 @@ public class NecklaceFactory {
                 System.out.println("You input error information ");
             }
         return listOfStones;
+    }
+    public void sort(List<Decor> listOfStones){
+        listOfStones.sort(new ComparatorOfStones());
     }
 }

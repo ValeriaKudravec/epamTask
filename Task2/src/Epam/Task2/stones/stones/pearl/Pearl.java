@@ -20,7 +20,7 @@ public class Pearl extends Decor {
     @Override
     public String toString(){
         StringBuilder show = new StringBuilder();
-        show.append("Emerald: ").append("\nCost: ")
+        show.append("Pearl: ").append("\nCost: ")
                 .append(getCost())
                 .append(";\nWeight: ")
                 .append(getWeight())
