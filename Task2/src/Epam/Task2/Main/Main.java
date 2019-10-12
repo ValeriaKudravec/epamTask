@@ -1,10 +1,9 @@
 package Epam.Task2.Main;
 
-import Epam.Task2.NeclaceReader.NecklaceReader;
+import Epam.Task2.neclacereader.NecklaceReader;
 import Epam.Task2.necklacefactory.NecklaceFactory;
 import Epam.Task2.stones.Decor;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {

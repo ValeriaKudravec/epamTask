@@ -1,7 +1,4 @@
-package Epam.Task2.NeclaceReader;
-
-import Epam.Task2.stones.Decor;
-import Epam.Task2.stones.stones.naturalstones.Diamond;
+package Epam.Task2.neclacereader;
 
 import java.io.File;
 import java.io.FileNotFoundException;
