@@ -15,6 +15,7 @@ import Epam.Task2.stones.stones.syntheticstones.SynteticRuby;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class NecklaceFactory {
     public List<Decor> makeListOfStones(List<String> stonesString){
@@ -80,5 +81,9 @@ public class NecklaceFactory {
     }
     public void sort(List<Decor> listOfStones){
         listOfStones.sort(new ComparatorOfStones());
+    }
+    public List<Decor> filter(List<Decor> listOfStones){
+        return listOfStones.stream().filter(item->(item.getCost())>70&&(item.getCost()<300)
+                &&(item.getWeight()<300&&item.getWeight()>150)).collect(Collectors.toList());
     }
 }

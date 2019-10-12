@@ -1,2 +1,5 @@
 Pearl;160;750;SEA;
 Pearl;120;250;SEA;
+Diamond;300;150;1.3;RARE;97;
+Emergfnekrv;3ac;140;1.4;COMMON;98;
+Diamond;300;150;1.3;RARER;97;

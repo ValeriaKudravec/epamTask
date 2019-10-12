@@ -19,11 +19,14 @@ public class Main {
             System.out.println(irem + "\n");
 
         }
+        System.out.println("\\\\\\\\");
         necklaceFactory.sort(listOfDecor);
         for (Decor irem:listOfDecor
         ) {
-            System.out.println(irem);
+            System.out.println(irem + "\n");
 
         }
+        System.out.println("filtered");
+        necklaceFactory.filter(listOfDecor).forEach(item-> System.out.println(item+"\n"));
     }
 }
