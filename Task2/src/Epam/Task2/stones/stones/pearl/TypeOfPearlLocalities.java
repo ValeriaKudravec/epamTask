@@ -2,7 +2,7 @@ package Epam.Task2.stones.stones.pearl;
 
 import Epam.Task2.exeption.DontParseException;
 
-enum TypeOfPearlLocalities {
+public enum TypeOfPearlLocalities {
     SEA,
     RIVER;
     public static TypeOfPearlLocalities parsePearlLocalities (String string)throws DontParseException {
