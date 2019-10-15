@@ -3,28 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b6410b80-61a3-47a2-8725-694dd39ce360" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/exeption/ParseLineException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/exeption/ParseLineException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/ComparatorOfStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/ComparatorOfStones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/Decor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/Decor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/naturalstones/NaturalStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/naturalstones/NaturalStones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/naturalstones/Rareness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/naturalstones/Rareness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Amber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/stones/Amber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/stones/Diamond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Emerald.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/stones/Emerald.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Pearl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/stones/Pearl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Ruby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/stones/Ruby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticDiamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/stones/SynteticDiamond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticEmerald.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/stones/SynteticEmerald.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticRuby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/stones/SynteticRuby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/TypeOfAmber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/stones/TypeOfAmber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/TypeOfPearlLocalities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/stones/TypeOfPearlLocalities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/syntheticstones/SynteticStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/models/syntheticstones/SynteticStones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/necklacefactory/NecklaceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/necklacefactory/NecklaceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/neclacereader/NecklaceReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/necklace/neclacereader/NecklaceReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/stoneFactory/StoneFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/stoneFactory/StoneFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/task2/validation/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/java/StoneFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/StoneFactoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -305,7 +283,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571130486784" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571130955266" />
     <property name="last_opened_file_path" value="D:/Новая папка" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -432,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571129258066</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor">
+      <created>1571130709216</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571130709216</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
