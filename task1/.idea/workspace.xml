@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14dd2b07-7b5a-4816-9258-5737ee26048e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Task2/src/tests/java/NecklaceFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stoneFactory/StoneFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/Task2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/Task2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/pearl/TypeOfPearlLocalities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/pearl/TypeOfPearlLocalities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/Input/InputFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/resources/resourcesFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/exeption/DontParseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/exeption/ParseLineException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklacefactory/NecklaceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/necklacefactory/NecklaceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/neclacereader/NecklaceReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/neclacereader/NecklaceReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/ComparatorOfStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/ComparatorOfStones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/Decor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/Decor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/naturalstones/NaturalStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/naturalstones/NaturalStones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/naturalstones/Rareness.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/naturalstones/Rareness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/amber/Amber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/stones/Amber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/amber/TypeOfAmber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/stones/TypeOfAmber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/naturalstones/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/stones/Diamond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/naturalstones/Emerald.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/stones/Emerald.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/naturalstones/Ruby.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/stones/Ruby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/pearl/Pearl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/stones/Pearl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/pearl/TypeOfPearlLocalities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/stones/TypeOfPearlLocalities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/syntheticstones/SynteticDiamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/stones/SynteticDiamond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/syntheticstones/SynteticEmerald.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/stones/SynteticEmerald.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/stones/syntheticstones/SynteticRuby.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/stones/SynteticRuby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/Epam/Task2/stones/syntheticstones/SynteticStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Epam/Task2/necklace/models/syntheticstones/SynteticStones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/src/tests/java/NecklaceFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/tests/java/StoneFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/inputFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/resourcesFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/epam/tasks/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/epam/tasks/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/epam/tasks/task1/exeption/EmptyArrayExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/epam/tasks/task1/exeption/ParseLineException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,15 +49,17 @@
     <session id="2135904879">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.45" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -67,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/epam/tasks/task1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="140">
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,11 +115,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests/java/ArithmeticTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="120">
+              <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,11 +220,11 @@
         <option value="$PROJECT_DIR$/src/epam/tasks/task1/action/Arithmetic.java" />
         <option value="$PROJECT_DIR$/src/epam/tasks/task1/input/InputString.java" />
         <option value="$PROJECT_DIR$/src/epam/tasks/task1/parse/ParseString.java" />
-        <option value="$PROJECT_DIR$/src/epam/tasks/task1/Main.java" />
         <option value="$PROJECT_DIR$/src/Tests/java/TestArithmeticClass.java" />
         <option value="$PROJECT_DIR$/src/epam/tasks/task1/input/ArrayReader.java" />
         <option value="$PROJECT_DIR$/src/epam/tasks/task1/validation/Validator.java" />
         <option value="$PROJECT_DIR$/src/Tests/java/ArithmeticTest.java" />
+        <option value="$PROJECT_DIR$/src/epam/tasks/task1/Main.java" />
       </list>
     </option>
   </component>
@@ -214,7 +241,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,7 +251,32 @@
             <path>
               <item name="task1" type="b2602c69:ProjectViewProjectNode" />
               <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="exeption" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task1" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task1" type="b2602c69:ProjectViewProjectNode" />
@@ -241,13 +292,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569881636280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571056203149" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -467,9 +519,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28322148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29127517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -477,7 +528,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35167786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -511,7 +562,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/epam/task1/exeption.java" />
-    <entry file="file://$PROJECT_DIR$/input/inputFile.txt">
+    <entry file="file://$PROJECT_DIR$/resources/resourcesFile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
@@ -519,7 +570,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/epam/task1/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/epam/tasks/task1/exeption/EmptyArrayExeption.java">
+    <entry file="file://$PROJECT_DIR$/src/epam/tasks/task1/exeption/ParseLineException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
@@ -531,8 +582,8 @@
     <entry file="file://$PROJECT_DIR$/src/Tests/java/TestFindClass.java" />
     <entry file="file://$PROJECT_DIR$/src/epam/tasks/task1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="140">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -543,6 +594,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/java/ArithmeticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -593,13 +654,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/java/ArithmeticTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
