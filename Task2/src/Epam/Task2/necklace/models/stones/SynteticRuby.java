@@ -1,9 +1,6 @@
 package Epam.Task2.necklace.models.stones;
 
-import Epam.Task2.necklace.exeption.ParseLineException;
 import Epam.Task2.necklace.models.syntheticstones.SynteticStones;
-
-import java.util.Scanner;
 
 public class SynteticRuby extends SynteticStones {
     @Override

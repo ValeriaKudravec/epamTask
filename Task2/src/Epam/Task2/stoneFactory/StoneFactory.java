@@ -4,7 +4,6 @@ import Epam.Task2.necklace.exeption.ParseLineException;
 import Epam.Task2.necklace.models.Decor;
 import Epam.Task2.necklace.models.naturalstones.Rareness;
 import Epam.Task2.necklace.models.stones.*;
-import Epam.Task2.validation.Validator;
 
 import java.util.Scanner;
 

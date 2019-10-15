@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6410b80-61a3-47a2-8725-694dd39ce360" name="Default Changelist" comment="refactor">
+    <list default="true" id="b6410b80-61a3-47a2-8725-694dd39ce360" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/necklace/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Amber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Amber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Diamond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Emerald.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Emerald.java" afterDir="false" />
@@ -11,9 +12,10 @@
       <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticDiamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticDiamond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticEmerald.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticEmerald.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticRuby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticRuby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/TypeOfPearlLocalities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/TypeOfPearlLocalities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Epam/Task2/necklace/necklacefactory/NecklaceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/necklace/necklacefactory/NecklaceFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Epam/Task2/stoneFactory/StoneFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/stoneFactory/StoneFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Epam/Task2/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Epam/Task2/validation/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/java/StoneFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/java/StoneFactoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,13 +63,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="4210" />
+          <entry key="java" value="4215" />
           <entry key="txt" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4210" />
+          <entry key="JAVA" value="4215" />
           <entry key="PLAIN_TEXT" value="155" />
         </counts>
       </usages-collector>
@@ -75,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Epam/Task2/stoneFactory/StoneFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="50" column="66" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
+              <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Amber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -108,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="101">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Epam/Task2/validation/Validator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="170">
+              <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,16 +144,16 @@
         <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Emerald.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="276">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -160,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticRuby.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -228,18 +230,18 @@
         <option value="$PROJECT_DIR$/src/Epam/Task2/Main/Main.java" />
         <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/necklacefactory/NecklaceFactory.java" />
         <option value="$PROJECT_DIR$/src/tests/java/StoneFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/main/Main.java" />
         <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Pearl.java" />
         <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Ruby.java" />
         <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticDiamond.java" />
         <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticEmerald.java" />
         <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticRuby.java" />
         <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Emerald.java" />
-        <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Diamond.java" />
         <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Amber.java" />
-        <option value="$PROJECT_DIR$/src/Epam/Task2/validation/Validator.java" />
         <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/TypeOfPearlLocalities.java" />
         <option value="$PROJECT_DIR$/src/Epam/Task2/stoneFactory/StoneFactory.java" />
+        <option value="$PROJECT_DIR$/src/Epam/Task2/validation/Validator.java" />
+        <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Diamond.java" />
       </list>
     </option>
   </component>
@@ -355,7 +357,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571128537003" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571128559416" />
     <property name="last_opened_file_path" value="D:/Новая папка" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -468,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571127618194</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor">
+      <created>1571128548906</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571128548906</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -505,9 +514,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3161074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3161074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -516,7 +524,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53959733" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25100672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -673,7 +681,7 @@
     <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/SynteticRuby.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -687,31 +695,14 @@
     <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Emerald.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Amber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -719,16 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Epam/Task2/validation/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,10 +723,37 @@
     <entry file="file://$PROJECT_DIR$/src/Epam/Task2/stoneFactory/StoneFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="50" column="66" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
+          <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Epam/Task2/validation/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Epam/Task2/necklace/models/stones/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>

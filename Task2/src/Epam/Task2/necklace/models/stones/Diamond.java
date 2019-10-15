@@ -1,10 +1,6 @@
 package Epam.Task2.necklace.models.stones;
 
-import Epam.Task2.necklace.exeption.ParseLineException;
 import Epam.Task2.necklace.models.naturalstones.NaturalStones;
-import Epam.Task2.necklace.models.naturalstones.Rareness;
-
-import java.util.Scanner;
 
 public class Diamond extends NaturalStones {
     public void polishDiamont(){

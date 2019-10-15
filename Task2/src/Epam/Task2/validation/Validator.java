@@ -1,11 +1,9 @@
 package Epam.Task2.validation;
 
-import Epam.Task2.necklace.exeption.ParseLineException;
 import Epam.Task2.necklace.models.naturalstones.Rareness;
 import Epam.Task2.necklace.models.stones.*;
 
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class Validator {
     public static boolean validate(String line) {

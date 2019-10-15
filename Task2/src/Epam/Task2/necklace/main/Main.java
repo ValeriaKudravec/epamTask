@@ -6,8 +6,6 @@ import Epam.Task2.necklace.neclacereader.NecklaceReader;
 import Epam.Task2.stoneFactory.StoneFactory;
 
 import Epam.Task2.validation.Validator;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 

@@ -1,13 +1,5 @@
 package tests.java;
 
-import Epam.Task2.necklace.necklacefactory.NecklaceFactory;
-import Epam.Task2.necklace.models.Decor;
-import Epam.Task2.necklace.models.stones.Pearl;
-import Epam.Task2.necklace.models.stones.TypeOfPearlLocalities;
-import Epam.Task2.stoneFactory.StoneFactory;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 
 public class StoneFactoryTest {
 
