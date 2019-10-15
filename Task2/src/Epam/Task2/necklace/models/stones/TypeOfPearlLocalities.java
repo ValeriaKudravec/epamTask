@@ -8,7 +8,6 @@ public enum TypeOfPearlLocalities {
     public static TypeOfPearlLocalities parsePearlLocalities (String string)throws ParseLineException {
         switch (string.toLowerCase()){
             case "sea":{
-                System.out.println("sea");
                 return SEA;}
             case "river":{return RIVER;}
             default:throw new ParseLineException();

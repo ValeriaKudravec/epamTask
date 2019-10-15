@@ -23,7 +23,6 @@ public class Main {
         for (String line:stonesString){
             if(Validator.validate(line)) {
                 necklaceFactory.add(new StoneFactory().makeStone(line));
-                System.out.println(line);
             }
         }
         for (Decor irem:necklaceFactory.getNecklace()) {
@@ -32,8 +31,7 @@ public class Main {
         }
         System.out.println("\\\\\\\\");
         necklaceFactory.sort();
-        for (Decor irem:necklaceFactory.filter()
-        ) {
+        for (Decor irem:necklaceFactory.getNecklace()) {
             System.out.println(irem + "\n");
 
         }

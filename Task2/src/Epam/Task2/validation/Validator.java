@@ -39,10 +39,11 @@ public class Validator {
                     return true;
                 }
                 case "pearl": {
-                    System.out.println(scanner.next());
-                    System.out.println(Integer.parseInt(scanner.next()));
-                    System.out.println(Integer.parseInt(scanner.next()));
-                    System.out.println(TypeOfPearlLocalities.parsePearlLocalities(scanner.next()));
+                    scanner.next();
+                    Integer.parseInt(scanner.next());
+                    Integer.parseInt(scanner.next());
+                    TypeOfPearlLocalities.parsePearlLocalities(scanner.next());
+
                     return true;
                 }
                 case "syntetic diamond": {

@@ -24,19 +24,5 @@ public class Ruby extends NaturalStones {
     public static boolean isRuby(String in){
         return "ruby".compareToIgnoreCase(in.split(";")[0])>0;
     }
-    public static Ruby parseStringToRuby (String inputString)throws ParseLineException {
-        try(Scanner scanner = new Scanner(inputString).useDelimiter(";")) {
-            Ruby ruby = new Ruby();
-            scanner.next();
-            ruby.setCost(Integer.parseInt(scanner.next()));
-            ruby.setWeight(Integer.parseInt(scanner.next()));
-            ruby.setHardness(Double.parseDouble(scanner.next()));
-            ruby.setRareness(Rareness.parseRareness(scanner.next()));
-            ruby.setTransparency(Integer.parseInt(scanner.next()));
-            return ruby;
-        }
-        catch (Exception e){
-            throw new ParseLineException();
-        }
-    }
+
 }

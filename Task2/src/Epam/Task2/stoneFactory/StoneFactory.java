@@ -11,7 +11,6 @@ import java.util.Scanner;
 public class StoneFactory {
     public Decor makeStone(String resourseLine) {
         try(Scanner scanner = new Scanner(resourseLine).useDelimiter(";")) {
-            if(Validator.validate(resourseLine)) {
             switch (resourseLine.split(";")[0].toLowerCase()) {
                 case "diamond": {
                     Diamond diamond = new Diamond();
@@ -45,11 +44,11 @@ public class StoneFactory {
                 }
                 case "pearl": {
                     Pearl pearl = new Pearl();
+                    scanner.next();
                     pearl.setCost(Integer.parseInt(scanner.next()));
                     pearl.setWeight(Integer.parseInt(scanner.next()));
-                    /*pearl.setTypeOfPearlLocalities(TypeOfPearlLocalities.
-                            parsePearlLocalities(scanner.next()));*/
-                    System.out.println(pearl);
+                    pearl.setTypeOfPearlLocalities(TypeOfPearlLocalities.
+                            parsePearlLocalities(scanner.next()));
                     return pearl;
                 }
                 case "syntetic diamond": {
@@ -91,7 +90,6 @@ public class StoneFactory {
                 default: {
                     break;
                 }
-            }
             }
             return null;
         }

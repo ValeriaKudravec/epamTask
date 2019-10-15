@@ -21,18 +21,5 @@ public class SynteticDiamond extends SynteticStones {
     public static boolean isSynteticDiamond(String in){
         return "Syntetic diamond".compareToIgnoreCase(in.split(";")[0])>0;
     }
-    public static SynteticDiamond parseStringToSynteticDiamond (String inputString)throws ParseLineException {
-        try(Scanner scanner = new Scanner(inputString).useDelimiter(";")) {
-            SynteticDiamond synteticDiamond = new SynteticDiamond();
-            scanner.next();
-            synteticDiamond.setCost(Integer.parseInt(scanner.next()));
-            synteticDiamond.setWeight(Integer.parseInt(scanner.next()));
-            synteticDiamond.setHardness(Double.parseDouble(scanner.next()));
-            synteticDiamond.setTransparency(Integer.parseInt(scanner.next()));
-            return synteticDiamond;
-        }
-        catch (Exception e){
-            throw new ParseLineException();
-        }
-    }
+
 }

@@ -24,19 +24,5 @@ public class Emerald extends NaturalStones {
     public static boolean isEmerald(String in){
         return "emerald".compareToIgnoreCase(in.split(";")[0])>0;
     }
-    public static Emerald parseStringToEmerald (String inputString)throws ParseLineException {
-        try(Scanner scanner = new Scanner(inputString).useDelimiter(";")) {
-            Emerald emerald = new Emerald();
-            scanner.next();
-            emerald.setCost(Integer.parseInt(scanner.next()));
-            emerald.setWeight(Integer.parseInt(scanner.next()));
-            emerald.setHardness(Double.parseDouble(scanner.next()));
-            emerald.setRareness(Rareness.parseRareness(scanner.next()));
-            emerald.setTransparency(Integer.parseInt(scanner.next()));
-            return emerald;
-        }
-        catch (Exception e){
-            throw new ParseLineException();
-        }
-    }
+
 }

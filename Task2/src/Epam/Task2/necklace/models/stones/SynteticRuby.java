@@ -21,18 +21,5 @@ public class SynteticRuby extends SynteticStones {
     public static boolean isSynteticRuby(String in){
         return "Syntetic ruby".compareToIgnoreCase(in.split(";")[0])>0;
     }
-    public static SynteticRuby parseStringToSynteticRuby (String inputString)throws ParseLineException {
-        try(Scanner scanner = new Scanner(inputString).useDelimiter("; ")) {
-            SynteticRuby synteticRuby = new SynteticRuby();
-            scanner.next();
-            synteticRuby.setCost(Integer.parseInt(scanner.next()));
-            synteticRuby.setWeight(Integer.parseInt(scanner.next()));
-            synteticRuby.setHardness(Double.parseDouble(scanner.next()));
-            synteticRuby.setTransparency(Integer.parseInt(scanner.next()));
-            return synteticRuby;
-        }
-        catch (Exception e){
-            throw new ParseLineException();
-        }
-    }
+
 }

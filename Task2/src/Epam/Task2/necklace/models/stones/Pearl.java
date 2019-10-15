@@ -29,17 +29,4 @@ public class Pearl extends Decor {
     public static boolean isPearl(String in){
         return "pearl".compareToIgnoreCase(in.split(";")[0])>0;
     }
-    public static Pearl parseStringToPearl (String inputString)throws ParseLineException {
-        try(Scanner scanner = new Scanner(inputString).useDelimiter(";")) {
-            Pearl pearl = new Pearl();
-            scanner.next();
-            pearl.setCost(Integer.parseInt(scanner.next()));
-            pearl.setWeight(Integer.parseInt(scanner.next()));
-            pearl.setTypeOfPearlLocalities(TypeOfPearlLocalities.parsePearlLocalities(scanner.next()));
-            return pearl;
-        }
-        catch (Exception e){
-            throw new ParseLineException();
-        }
-    }
 }
