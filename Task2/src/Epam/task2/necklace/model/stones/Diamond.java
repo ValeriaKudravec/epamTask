@@ -20,4 +20,5 @@ public class Diamond extends NaturalStones {
                 .append(";\nTransparency: ").append(getTransparency());
         return show.toString();
     }
+
 }

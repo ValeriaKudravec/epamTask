@@ -15,4 +15,5 @@ public class SynteticDiamond extends SynteticStones {
                 .append(";\nTransparency").append(getTransparency());
         return show.toString();
     }
+
 }

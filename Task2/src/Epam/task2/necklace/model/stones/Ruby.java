@@ -17,4 +17,5 @@ public class Ruby extends NaturalStones {
                 .append(";\nTransparency").append(getTransparency());
         return show.toString();
     }
+
 }

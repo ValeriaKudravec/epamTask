@@ -69,12 +69,11 @@ public class StoneFactory {
                     return synteticRuby;
                 }
                 case "amber": {
-                    SynteticRuby synteticRuby = new SynteticRuby();
-                    synteticRuby.setCost(Integer.parseInt(resourseParseLine[1]));
-                    synteticRuby.setWeight(Integer.parseInt(resourseParseLine[2]));
-                    synteticRuby.setHardness(Double.parseDouble(resourseParseLine[3]));
-                    synteticRuby.setTransparency(Integer.parseInt(resourseParseLine[4]));
-                    return synteticRuby;
+                    Amber amber = new Amber();
+                    amber.setCost(Integer.parseInt(resourseParseLine[1]));
+                    amber.setWeight(Integer.parseInt(resourseParseLine[2]));
+                    amber.setSizeType(TypeOfAmber.parseTypeOfAmber(resourseParseLine[3]));
+                    return amber;
                 }
                 default: {
                     break;

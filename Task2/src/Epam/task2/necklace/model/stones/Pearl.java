@@ -2,6 +2,8 @@ package Epam.task2.necklace.model.stones;
 
 import Epam.task2.necklace.model.Decor;
 
+import java.util.Objects;
+
 public class Pearl extends Decor {
     private TypeOfPearlLocalities typeOfPearlLocalities;
 
@@ -23,5 +25,21 @@ public class Pearl extends Decor {
                 .append(";\nType of pearl localities: ")
                 .append(getTypeOfPearlLocalities());
         return show.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Pearl)) return false;
+        if (!super.equals(o)) return false;
+        Pearl pearl = (Pearl) o;
+        return getTypeOfPearlLocalities() == pearl.getTypeOfPearlLocalities()
+                &&getWeight() == getWeight() &&
+                Double.compare(getCost(), getCost()) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), getTypeOfPearlLocalities());
     }
 }
