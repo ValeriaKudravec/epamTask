@@ -15,8 +15,6 @@ import java.util.List;
 
 
 public class Main {
-
-
     static String fileName = "resources/resourcesFile.txt";
     public static void main(String[] args) {
         NecklaceReader necklaceReader = new NecklaceReader();
@@ -31,7 +29,7 @@ public class Main {
         }
         NecklaceSorter necklaceSorter = new NecklaceSorter();
         necklaceSorter.sort(necklaceFactory);
-        System.out.println("\\\\\\\\");
+        System.out.println("SORT");
         for (Decor irem:necklaceFactory.getNecklace()) {
             System.out.println(irem + "\n");
 
