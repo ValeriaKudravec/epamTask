@@ -1,11 +1,10 @@
-package tests.java;
+package test.java.necklace.stoneFactory;
 
 
-import Epam.task2.necklace.model.Decor;
 import Epam.task2.necklace.model.naturalstones.Rareness;
 import Epam.task2.necklace.model.stones.*;
 import Epam.task2.parser.Parser;
-import Epam.task2.stonefactory.StoneFactory;
+import Epam.task2.necklace.stonefactory.StoneFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

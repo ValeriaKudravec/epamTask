@@ -1,4 +1,4 @@
-package Epam.task2.stonefactory;
+package Epam.task2.necklace.stonefactory;
 
 import Epam.task2.necklace.exeption.ParseLineException;
 import Epam.task2.necklace.model.Decor;
