@@ -1,4 +1,4 @@
-package Epam.task2.necklace.models;
+package Epam.task2.necklace.model;
 
 import java.util.Comparator;
 

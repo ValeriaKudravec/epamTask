@@ -1,17 +1,19 @@
-package Epam.task2.necklace.models.stones;
+package Epam.task2.necklace.model.stones;
 
-import Epam.task2.necklace.models.syntheticstones.SynteticStones;
+import Epam.task2.necklace.model.naturalstones.NaturalStones;
 
-public class SynteticDiamond extends SynteticStones {
+public class Emerald extends NaturalStones {
     @Override
-    public String toString(){
+    public String toString() {
         StringBuilder show = new StringBuilder();
-        show.append("Syntetic Diamond: ").append("\nCost: ")
+        show.append("Emerald: ").append("\nCost: ")
                 .append(getCost())
                 .append(";\nWeight: ")
                 .append(getWeight())
                 .append(";\nHardness: ")
                 .append(getHardness())
+                .append(";\nRareness ")
+                .append(getRareness())
                 .append(";\nTransparency").append(getTransparency());
         return show.toString();
     }

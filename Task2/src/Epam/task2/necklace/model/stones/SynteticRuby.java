@@ -1,12 +1,12 @@
-package Epam.task2.necklace.models.stones;
+package Epam.task2.necklace.model.stones;
 
-import Epam.task2.necklace.models.syntheticstones.SynteticStones;
+import Epam.task2.necklace.model.syntheticstones.SynteticStones;
 
-public class SynteticEmerald extends SynteticStones {
+public class SynteticRuby extends SynteticStones {
     @Override
-    public String toString(){
+    public String toString() {
         StringBuilder show = new StringBuilder();
-        show.append("Syntetic Emerald: ").append("\nCost: ")
+        show.append("Syntetic Ruby: ").append("\nCost: ")
                 .append(getCost())
                 .append(";\nWeight: ")
                 .append(getWeight())

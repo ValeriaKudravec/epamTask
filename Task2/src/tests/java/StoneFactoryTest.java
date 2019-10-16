@@ -1,10 +1,11 @@
 package tests.java;
 
 
-import Epam.task2.necklace.models.Decor;
-import Epam.task2.necklace.models.stones.Pearl;
-import Epam.task2.necklace.models.stones.TypeOfPearlLocalities;
-import Epam.task2.stoneFactory.StoneFactory;
+import Epam.task2.necklace.model.Decor;
+import Epam.task2.necklace.model.stones.Pearl;
+import Epam.task2.necklace.model.stones.TypeOfPearlLocalities;
+import Epam.task2.parser.Parser;
+import Epam.task2.stonefactory.StoneFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -16,8 +17,10 @@ public class StoneFactoryTest {
         pearl.setCost(160);
         pearl.setWeight(750);
         pearl.setTypeOfPearlLocalities(TypeOfPearlLocalities.SEA);
-        Decor we = new StoneFactory().makeStone("Pearl;160;750;SEA");
+        Parser parser = new Parser();
+        Decor we = new StoneFactory().makeStone(parser.parseLine("Pearl;160;750;SEA"));
         System.out.println(we);
-        Assert.assertEquals(pearl, new StoneFactory().makeStone("Pearl;160;750;SEA"));
+        Assert.assertEquals(pearl, new StoneFactory()
+                .makeStone(parser.parseLine("Pearl;160;750;SEA")));
     }
 }

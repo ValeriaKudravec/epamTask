@@ -1,6 +1,6 @@
-package Epam.task2.necklace.models.stones;
+package Epam.task2.necklace.model.stones;
 
-import Epam.task2.necklace.models.naturalstones.NaturalStones;
+import Epam.task2.necklace.model.naturalstones.NaturalStones;
 
 public class Diamond extends NaturalStones {
     public void polishDiamont(){

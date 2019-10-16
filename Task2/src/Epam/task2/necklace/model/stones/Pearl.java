@@ -1,6 +1,6 @@
-package Epam.task2.necklace.models.stones;
+package Epam.task2.necklace.model.stones;
 
-import Epam.task2.necklace.models.Decor;
+import Epam.task2.necklace.model.Decor;
 
 public class Pearl extends Decor {
     private TypeOfPearlLocalities typeOfPearlLocalities;

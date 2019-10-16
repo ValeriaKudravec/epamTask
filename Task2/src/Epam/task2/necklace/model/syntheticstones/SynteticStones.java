@@ -1,6 +1,6 @@
-package Epam.task2.necklace.models.syntheticstones;
+package Epam.task2.necklace.model.syntheticstones;
 
-import Epam.task2.necklace.models.Decor;
+import Epam.task2.necklace.model.Decor;
 
 public abstract class SynteticStones extends Decor {
     private double hardness;

@@ -1,4 +1,6 @@
-package Epam.task2.necklace.models;
+package Epam.task2.necklace.stonecomparator;
+
+import Epam.task2.necklace.model.Decor;
 
 import java.util.Comparator;
 

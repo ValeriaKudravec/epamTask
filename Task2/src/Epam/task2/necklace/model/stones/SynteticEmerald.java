@@ -1,19 +1,17 @@
-package Epam.task2.necklace.models.stones;
+package Epam.task2.necklace.model.stones;
 
-import Epam.task2.necklace.models.naturalstones.NaturalStones;
+import Epam.task2.necklace.model.syntheticstones.SynteticStones;
 
-public class Ruby extends NaturalStones {
+public class SynteticEmerald extends SynteticStones {
     @Override
-    public String toString() {
+    public String toString(){
         StringBuilder show = new StringBuilder();
-        show.append("Ruby: ").append("\nCost: ")
+        show.append("Syntetic Emerald: ").append("\nCost: ")
                 .append(getCost())
                 .append(";\nWeight: ")
                 .append(getWeight())
                 .append(";\nHardness: ")
                 .append(getHardness())
-                .append(";\nRareness ")
-                .append(getRareness())
                 .append(";\nTransparency").append(getTransparency());
         return show.toString();
     }
